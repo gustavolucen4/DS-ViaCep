@@ -88,19 +88,32 @@ body {
     background-color: #DDD;
 }
 
+.card-list-container{
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto 20px auto;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #333;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.card-list-trash{
+    cursor: pointer;
+}
+
+.card-list-trash i {
+    color:rgb(207, 59, 59);
+}
 
 .list-container {
     padding: 0 20px;
 }
 
 .card-list-item {
-    max-width: 900px;
-    width: 100%;
-    background-color: #333;
     color: #fff;
-    margin: 0 auto 20px auto;
-    border-radius: 8px;
-    padding: 20px;
 }
 
 .card-list-item h3 {
@@ -118,3 +131,4 @@ body {
     color: #8f8f8f;
     font-size: 12px;
 }
+
